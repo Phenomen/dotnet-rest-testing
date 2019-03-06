@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7860c23a-0a33-4db3-91b9-1bccc809f054" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://soap-att.dio.red/AccountsV3.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AccountsV3.wsdl" MetadataType="Wsdl" ID="8ccc25e4-a346-445a-bc65-83728422c6fb" SourceId="1" SourceUrl="http://soap-att.dio.red/AccountsV3.svc?wsdl" />
+    <MetadataFile FileName="AccountsV3.xsd" MetadataType="Schema" ID="b8b8af88-7d5f-4336-a880-0c1ff678442a" SourceId="1" SourceUrl="http://soap-att.dio.red/AccountsV3.svc?xsd=xsd2" />
+    <MetadataFile FileName="AccountsV3.disco" MetadataType="Disco" ID="ab0ce3b3-0615-410d-b315-532da82b27ac" SourceId="1" SourceUrl="http://soap-att.dio.red/AccountsV3.svc?disco" />
+    <MetadataFile FileName="AccountsV31.xsd" MetadataType="Schema" ID="caa2dcb3-97ad-430a-9ea9-3b8ae1d65473" SourceId="1" SourceUrl="http://soap-att.dio.red/AccountsV3.svc?xsd=xsd1" />
+    <MetadataFile FileName="AccountsV32.xsd" MetadataType="Schema" ID="80bca766-704e-483f-b5fe-e041004003d6" SourceId="1" SourceUrl="http://soap-att.dio.red/AccountsV3.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
